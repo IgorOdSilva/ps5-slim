@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+
+
+body {
+    overflow: hidden;
+    background-image: url(/ps5/img/fundo-ps51.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 14px;
+    font-family:  "Kanit", sans-serif;
+}
+
+nav#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+nav#menu > img {
+    margin-left: 5%;
+    width: 130px;
+}
+
+nav#menu > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    list-style-type: none;
+}
+
+nav#menu > ul > li > a {
+    padding: 15px 30px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #4F9EAF;
+    font-weight: bold;
+    font-family: "Play", sans-serif;
+}
+
+nav#menu > ul > li.normal:hover {
+    padding: 15px 30px;
+    transition: 0.5s;
+    color: white;
+    background-color: #4F9EAF;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav#menu > ul > li#login > a:hover {
+    transition: 0.5s;
+    background-color: #D7F7FC;
+    color: #4F9EAF;
+    padding: 17px 32px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    gap: 20%;
+    align-items: center;
+}
+
+
+section#conteudo-principal > #texto > p {
+    line-height: 1em;
+    font-size: 3.5em;
+    width: 400px;
+    font-family: "Kanit", sans-serif;
+}
+
+section#conteudo-principal > #texto > p > strong {
+    line-height: normal;
+    font-size: 1.5em;
+}
+
+section#conteudo-principal > img {
+    width: 45%;
+}
+
+section#conteudo-principal > #texto > a {
+    text-decoration: none;
+    color: white;
+    background-color: #4F9EAF;
+    padding: 5px 30px;
+    border-radius: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section#conteudo-principal > #texto > a:hover {
+    padding: 7px 32px;
+    transition: 0.5s;
+    background-color: #D7F7FC;
+    color: #4F9EAF;
+}
+
