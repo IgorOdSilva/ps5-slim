@@ -5,7 +5,7 @@
 
 body {
     overflow: hidden;
-    background-image: url(/img/fundo-ps51.png);
+    background-image: url("/img/fundo-ps51.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
